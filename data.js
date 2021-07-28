@@ -1,4 +1,4 @@
-var moodStart, genre, aGeneralCharacter, generalCharacter, generalCharacters, characterDescriptions, groupNames, objectives, scene, sceneDescription, theme;
+var moodStart, genre, aGeneralCharacter, generalCharacter, generalCharacters, characterDescriptions, groupNames, objectives, aInSetting, aOnSetting, settingDescription, theme, setting, peopleObjectives;
 
 peopleObjectives = [
     "befriend",
@@ -8,8 +8,7 @@ peopleObjectives = [
     "save",
     "talk to",
     "nutmeg",
-    "roast",
-    
+    "roast"
 ];
 
 theme = [
@@ -81,7 +80,7 @@ theme = [
     "mathematics"
 ];
 
-sceneDescription = [
+settingDescription = [
     "tiny",
     "microscopic",
     "enormous",
@@ -139,56 +138,53 @@ sceneDescription = [
     "royal"
 ];
 
-scene = [
-    "city",
-    "library",
-    "military facility",
-    "warehouse", 
-    "graveyard", 
-    "village", 
-    "kingdom", 
-    "sewer", 
-    "shopping mall", 
-    "nightclub", 
-    "cave", 
-    "labyrinth", 
-    "park", 
-    "parking lot", 
-    "kitchen",
-    "planet", 
-    "spaceship",
-    "moon",
-    "star",
-    "rainbow",
-    "island", 
-    "train", 
-    "boat", 
-    "mountain", 
-    "rollercoaster", 
-    "street", 
-    "motorbike", 
-    "bicycle", 
-    "shipwreck", 
-    "bouncy castle",
-    "casino", 
-    "library", 
-    "junkyard", 
-    "basement", 
-    "dungeon", 
-    "prison", 
-    "tavern", 
-    "resturant", 
-    "cinema", 
-    "valley", 
-    "mansion", 
-    "forest", 
-    "jungle", 
-    "office", 
-    "hotel",
+aOnSetting = [
+    "a planet", 
+    "the moon",
+    "a star",
+    "a rainbow",
+    "a island", 
+    "a mountain", 
+    "a bouncy castle"
+]
+
+aInSetting = [
+    "Iraq",
+    "a city",
+    "a library",
+    "a military facility",
+    "a warehouse", 
+    "a graveyard", 
+    "a village", 
+    "a kingdom", 
+    "a sewer", 
+    "a shopping mall", 
+    "a nightclub", 
+    "a cave", 
+    "a labyrinth", 
+    "a park", 
+    "a parking lot", 
+    "a kitchen",
+    "a shipwreck", 
+    "a casino", 
+    "a library", 
+    "a junkyard", 
+    "a basement", 
+    "a dungeon", 
+    "a prison", 
+    "a tavern", 
+    "a resturant", 
+    "a cinema", 
+    "a valley", 
+    "a mansion", 
+    "a forest", 
+    "a jungle", 
+    "a office", 
+    "a hotel",
     "an alternate reality", 
-    "in outer space", 
-    "underwater", 
-    "underground", 
+    "outer space", 
+    "the ocean", 
+    "the ground", 
     "summer", 
     "winter", 
     "spring", 
