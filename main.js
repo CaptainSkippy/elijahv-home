@@ -1,7 +1,3 @@
-var history, id;
-history = [];
-id = 0;
-
 function generateSentence(){
     var idea, templateSeed;
 
@@ -33,8 +29,6 @@ function generateSentence(){
             idea = moodStart[Math.floor(Math.random() * (moodStart.length))] + " " + genre[Math.floor(Math.random() * (genre.length))] + " game where you play as a " + groupNames[Math.floor(Math.random() * (groupNames.length))] + " of " + characterDescriptions[Math.floor(Math.random() * (characterDescriptions.length))] + " " + generalCharacters[Math.floor(Math.random() * (generalCharacters.length))];
             break;
     }
-    history.push(idea);
 
     document.getElementById("gameIdeaArea").innerHTML = idea;
-    document.getElementById("history").innerHTML = history[history.length - 1];
 };
