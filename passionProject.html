@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Elijah Vandersteen | Passion Project Game Idea Generator</title>
+        <title id="titleString">Elijah Vandersteen | Passion Project Game Idea Generator</title>
         
-        <link rel="shortcut icon" href="Pictures&Icons/icon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/Pictures&Icons/icon.ico" type="image/x-icon">
         
-        <script src="data.js"></script>
-        <script src="main.js"></script>
+        <script src="gameIdeaGenData.js"></script>
+        <script src="gameIdeaGen.js"></script>
 
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="/CSS/main.css">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel='stylesheet'>
@@ -20,14 +20,21 @@
     <body>
         <h1 id="title">
             Game Idea Generator
+            <div id="nameTag">
+                By Elijah Vandersteen
+            </div>
         </h1>
 
         <div id="gameIdeaArea">
-            ...
+            •••
         </div>
 
-        <button type="button"; class="textbutton"; id="generateIdea" onclick="generateSentence();">
+        <button type="button" class="gameIdeaArea" id="generateIdea" onclick="generateSentence();">
             Generate Game Idea
         </button>
+
+        <div style="padding-top: 500px;">
+            <a href="/index.html">Check out my Homepage</a>
+        </div>
     </body>
 </html>
