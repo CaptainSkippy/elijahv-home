@@ -1,4 +1,29 @@
-var moodStart, genre, aGeneralCharacter, generalCharacter, generalCharacters, characterDescriptions, groupNames, objectives, aInSetting, aOnSetting, settingDescription, theme, setting, peopleObjectives;
+var moodStart, 
+    genre,
+    theme,
+
+    aGeneralCharacter, 
+    generalCharacter, 
+    generalCharacters, 
+    characterDescriptions, 
+    groupNames,
+
+    objectives,
+    peopleObjectives,
+
+    aInSetting, 
+    aOnSetting, 
+    settingDescription, 
+    setting,
+
+    combination;
+
+combination = [
+    "mixup",
+    "mashup",
+    "combination",
+    "blend"
+];
 
 peopleObjectives = [
     "befriend",
@@ -8,7 +33,10 @@ peopleObjectives = [
     "save",
     "talk to",
     "nutmeg",
-    "roast"
+    "roast",
+    "cook",
+    "alienate",
+    "isolate"
 ];
 
 theme = [
@@ -150,6 +178,7 @@ aOnSetting = [
 
 aInSetting = [
     "Iraq",
+    "Midland Gate",
     "a city",
     "a library",
     "a military facility",
@@ -158,7 +187,7 @@ aInSetting = [
     "a village", 
     "a kingdom", 
     "a sewer", 
-    "a shopping mall", 
+    "a shopping centre", 
     "a nightclub", 
     "a cave", 
     "a labyrinth", 
@@ -198,67 +227,67 @@ aInSetting = [
     "a dumpster"
 ];
 
-characterDescriptions = [
-    "tiny",
-    "gigantic",
-    "lonely",
-    "time-travelling",
-    "evil",
-    "easily-frightened",
-    "attractive",
-    "short",
-    "tall",
-    "intimidating",
-    "clumsy",
-    "good-looking",
-    "courageous",
-    "anxious",
-    "forgetful",
-    "famous",
-    "shy",
-    "scary-looking",
-    "one-eyed",
-    "bored",
-    "ambitious",
-    "power-hungry",
-    "two-headed",
-    "wise",
-    "elderly",
-    "greedy",
-    "invisible",
-    "magical",
-    "blind",
-    "peace-loving",
-    "polite",
-    "worried",
-    "rude",
-    "genetically modified",
-    "genetically enhanced",
-    "grumpy",
-    "charming",
-    "energetic",
-    "imaginary",
-    "unfriendly",
-    "friendly",
-    "nervous",
+aCharacterDescriptions = [
+    "a tiny",
+    "a gigantic",
+    "a lonely",
+    "a time-travelling",
+    "an evil",
+    "an easily-frightened",
+    "an attractive",
+    "a short",
+    "a tall",
+    "an intimidating",
+    "a clumsy",
+    "a good-looking",
+    "a courageous",
+    "an anxious",
+    "a forgetful",
+    "a famous",
+    "a shy",
+    "a scary-looking",
+    "an one-eyed",
+    "a bored",
+    "an ambitious",
+    "a power-hungry",
+    "a two-headed",
+    "a wise",
+    "an elderly",
+    "a greedy",
+    "an invisible",
+    "a magical",
+    "a blind",
+    "a peace-loving",
+    "a polite",
+    "a worried",
+    "a rude",
+    "a genetically modified",
+    "a genetically enhanced",
+    "a grumpy",
+    "a charming",
+    "an energetic",
+    "an imaginary",
+    "a unfriendly",
+    "a friendly",
+    "a nervous",
     "optimistic",
-    "pessimistic",
-    "undead",
-    "quirky",
-    "sarcastic",
-    "well-dressed",
-    "lazy",
-    "talkative",
-    "royal",
-    "cunning",
-    "playful",
-    "penniless",
-    "wealthy",
-    "impatient",
-    "wind-up",
-    "law-abiding",
-    "law-breaking",
-    "over-enthusiastic"
+    "a pessimistic",
+    "an undead",
+    "a quirky",
+    "a sarcastic",
+    "a well-dressed",
+    "a lazy",
+    "a talkative",
+    "a royal",
+    "a cunning",
+    "a playful",
+    "a penniless",
+    "a wealthy",
+    "an impatient",
+    "a wind-up",
+    "a law-abiding",
+    "a law-breaking",
+    "an over-enthusiastic"
 ];
 
 groupNames = [
@@ -397,7 +426,8 @@ aGeneralCharacter = [
     "a plumber",
     "an electrician",
     "a mechanic",
-    "a citizen"
+    "a citizen",
+    "an english teacher"
     ];
 
 generalCharacter = [
@@ -458,7 +488,8 @@ generalCharacter = [
     "plumber",
     "electrician",
     "mechanic",
-    "citizen"
+    "citizen",
+    "english teacher"
     ];
 
 generalCharacters = [
@@ -514,5 +545,6 @@ generalCharacters = [
     "plumbers",
     "electricians",
     "mechanics",
-    "citizens"
+    "citizens",
+    "english teachers"
 ];
