@@ -56,3 +56,8 @@ body {
     grid-row-gap: 100px;
     grid-template-columns: auto auto auto;
 }
+
+#nameTag{
+    font-size: 25%;
+    background-color: #8D9FB3;
+}
