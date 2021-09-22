@@ -2,6 +2,7 @@ var moodStart,
     genre,
     theme,
 
+    properCharacter,
     aGeneralCharacter, 
     generalCharacter, 
     generalCharacters, 
@@ -10,13 +11,20 @@ var moodStart,
 
     objectives,
     peopleObjectives,
+    locationObjectives,
 
     aInSetting, 
     aOnSetting, 
     settingDescription, 
     setting,
 
-    combination;
+    combination,
+    doingTo;
+
+doingTo = [
+    "trying to",
+    "attempting to"
+];
 
 combination = [
     "mixup",
@@ -37,6 +45,15 @@ peopleObjectives = [
     "cook",
     "alienate",
     "isolate"
+];
+
+locationObjectives = [
+    "infiltrate",
+    "enter",
+    "find",
+    "destroy",
+    "get to",
+    "clean up"
 ];
 
 theme = [
@@ -386,7 +403,7 @@ aGeneralCharacter = [
     "a programmer",
     "a student",
     "a youtuber",
-    "influencer",
+    "an influencer",
     "a celebrity",
     "a president",
     "a politician",
@@ -547,4 +564,34 @@ generalCharacters = [
     "mechanics",
     "citizens",
     "english teachers"
+];
+
+properCharacter = [
+    "Donald Trump",
+    "Barack Obama",
+    "Elvis Presley",
+    "John Cena",
+    "Dwayne Johnson",
+    "Cristiano Ronaldo",
+    "Justin Bieber",
+    "Abraham Lincoln",
+    "John F. Kennedy",
+    "Oscar Uetake",
+    "Tom Cruise",
+    "Johnny Depp",
+    "Keanu Reeves",
+    "Elon Musk",
+    "Hugh Jackman",
+    "Michael Jordan",
+    "Mike Tyson",
+    "Lara Croft",
+    "Nathan Drake",
+    "Mario",
+    "Agent 47",
+    "Link",
+    "Ganon",
+    "Donkey Kong",
+    "Yoshi",
+    "Fox McCloud",
+    "Jonno"
 ];
