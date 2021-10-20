@@ -577,6 +577,7 @@ properCharacter = [
     "Abraham Lincoln",
     "John F. Kennedy",
     "Oscar Uetake",
+    "Jonsie Jones (Cameron)",
     "Tom Cruise",
     "Johnny Depp",
     "Keanu Reeves",
