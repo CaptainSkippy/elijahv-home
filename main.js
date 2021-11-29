@@ -1,7 +1,15 @@
+var ideaHistory = [];
+
 function pullRandomWord(array){
     let word = array[Math.floor(Math.random() * (array.length))];
     return word;
 };
+
+window.addEventListener("keydown", function(event){
+    if(event.keyCode == 32){
+        generateSentence();
+    }
+});
 
 function generateSentence(){
     var idea, templateSeed;
@@ -44,6 +52,14 @@ function generateSentence(){
       - Include: SETTING, MOOD, GENRE, CHARACTER, OBJECTIVES...
       - Optional: ART-STYLE, ENEMY(If not part of objective)...
     */
+    
+    ideaHistory.push(idea);
+
+    if(ideaHistory.length > 1000){
+        ideaHistory = _.drop(ideaHistory, 1);
+    }
+
+    sessionStorage.setItem("ideaHistory", JSON.stringify(ideaHistory));
 
     document.getElementById("gameIdeaArea").innerHTML = idea;
 };
