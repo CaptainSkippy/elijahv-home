@@ -44,7 +44,20 @@ peopleObjectives = [
     "roast",
     "cook",
     "alienate",
-    "isolate"
+    "isolate",
+    "consume",
+    "ruin",
+    "crush",
+    "damage",
+    "ravage",
+    "maim",
+    "advize",
+    "patronize",
+    "free",
+    "recover",
+    "liberate",
+    "extricate",
+    "troll"
 ];
 
 locationObjectives = [
@@ -53,7 +66,11 @@ locationObjectives = [
     "find",
     "destroy",
     "get to",
-    "clean up"
+    "clean up",
+    "penetrate",
+    "sneak into",
+    "get to",
+    "visit"
 ];
 
 theme = [
@@ -577,7 +594,7 @@ properCharacter = [
     "Abraham Lincoln",
     "John F. Kennedy",
     "Oscar Uetake",
-    "Jonsie Jones (Cameron)",
+    "Cameron Jones",
     "Tom Cruise",
     "Johnny Depp",
     "Keanu Reeves",
@@ -588,9 +605,6 @@ properCharacter = [
     "Lara Croft",
     "Nathan Drake",
     "Mario",
-    "Agent 47",
-    "Link",
-    "Ganon",
     "Donkey Kong",
     "Yoshi",
     "Fox McCloud",
